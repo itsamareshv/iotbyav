@@ -6,4 +6,5 @@ curl -X POST -H "Content-Type: application/json" http://127.0.0.1:8000/api/cart-
 #Checking the JSON database
 http://127.0.0.1:8000/api/cart-items/
 
-
+#please add your google app password and your email id in views.py  in order to send mail to the users
+server.login("itsamareshv@gmail.com","Your KEY")
