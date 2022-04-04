@@ -1,4 +1,9 @@
-Adding NEW data to the rest API
+#Adding NEW data to the rest API
 
 curl -X POST -H "Content-Type: application/json" http://127.0.0.1:8000/api/cart-items/ -d "{\"device_name\":\"google\",\"device_current\":\"41\",\"device_voltage\":\"10\",\"device_kw\":\"21\",\"hours\":\"41\"}"
 {"status":"success","data":{"device_id":19,"device_name":"google","device_current":41,"device_voltage":10,"device_kw":21,"hours":41}}
+
+#Checking the JSON database
+http://127.0.0.1:8000/api/cart-items/
+
+
